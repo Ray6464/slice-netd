@@ -1,0 +1,33 @@
+{
+  "name": "slice-netd",
+  "version": "1.0.0",
+  "description": "A daemon for using hands-free slice-net for ray-userland!",
+  "main": "slice-netd.min.js",
+  "scripts": {
+    "test": "node tests/mainTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/slice-netd.git"
+  },
+  "keywords": [
+    "daemon",
+    "ray-userlan",
+    "slice-net"
+  ],
+  "author": [
+    "Ray-Voice",
+    "Anna-Voice"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/slice-netd/issues"
+  },
+  "homepage": "https://github.com/Ray6464/slice-netd#readme",
+  "dependencies": {
+    "ray-flags": "^0.0.7"
+  },
+  "bin": {
+    "slice-netd": "./slice-netd.min.js"
+  }
+}
